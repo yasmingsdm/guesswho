@@ -30,6 +30,11 @@ a:hover{
     margin-top: 20px;
 }
 
+ol{
+    list-style-position: inside;
+    line-height: 30px;
+}
+
 button{
     border-radius: 20px;
     color:red;
