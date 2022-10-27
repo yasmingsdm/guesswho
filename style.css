@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    font-family:"Comic Sans MS", "Comic Sans", Arial;
+    background-color: rgba(0,128,128,0.3)
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li{
+        display: inline;
+        padding:10px;
+        border: solid 1px teal;
+}
+
+a{
+    color:red
+}
+
+a:hover{
+    color:white
+}
+
+h1{
+    color:red;
+}
+.YourCard{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.boardSmallScreen{
+    display:none;
+}
+
+@media (max-width: 1024px){
+    .boardImg{
+        width:100px;
+    }
+
+    .boardBigScreen{
+        display:none;
+    }
+
+    .boardSmallScreen{
+        display:block
+    }
+}
