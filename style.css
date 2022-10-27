@@ -1,7 +1,7 @@
 body{
     text-align: center;
     font-family:"Comic Sans MS", "Comic Sans", Arial;
-    background-color: rgba(0,128,128,0.3)
+    background-color: rgba(0,128,128,0.2)
 }
 
 ul{
@@ -25,15 +25,25 @@ a:hover{
     color:white
 }
 
-h1{
-    color:red;
+.logo{
+    width: 250px;
+    margin-top: 20px;
 }
-.YourCard{
-    width: 300px;
-    margin-bottom: 20px;
+
+button{
+    border-radius: 20px;
+    color:red;
+    background-color: rgba(0,128,128,0.5);
+    height:35px;
+    padding:10px;
+    margin-bottom: 50px;
 }
 
 .boardSmallScreen{
+    display:none;
+}
+
+.mistake2{
     display:none;
 }
 
@@ -47,6 +57,19 @@ h1{
     }
 
     .boardSmallScreen{
-        display:block
+        display:block;
+    }
+
+    .mistake{
+        display:none;
+    }
+
+    .mistake2{
+        display:inline-block;
     }
 }
+
+.playAgain, .mistake, .mistake2{
+    margin-top: 20px;
+}
+
