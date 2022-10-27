@@ -8,58 +8,64 @@
         <nav>
             <ul>
               <a href="#howToPlay"><li> How to Play</li></a>
-              <a href="#Play"><li>Let's Play</li></a>
+              <a href="#yourCard"><li>Let's Play</li></a>
             </ul>
         </nav>
-        <h1>Guess Who?</h1>
+        <img  class="logo" id="logo" src="http://shuffle.cards/assets/images/licenses/guess_who/header_logo.png "/>
         <section class="howToPlay">
             <p class="howTo" id="howTo">How to Play:</p>
             <ol>
                 <li>Each player must open the game in one device;</li>
-                <li>Click on the logo of the game to see your card (don't show to the other players);</li>
-                <li>Click again to hide your card;</li>
+                <li>Click on the button to see your card (don't show to the other players);</li>
+                <li>Click to hide your card;</li>
                 <li>Make Yes/No questions to guess your oponent's card;</li>
                 <li>If you want to hide a character on your board, just click on the character;</li>
+                <li>If you think you made a mistake and want to refresh your game table, just click on mistake;</li>
                 <li>The winner is the one who guesses right your oponent's card first</li>
             </ol>
             <p><b>Be carefull:</b> Your oponent can have the same card as you!</p>
         </section>
         <section class="Play">
             <p>Your card is:</p>
-            <img  class="YourCard" id="YourCard" src="http://shuffle.cards/assets/images/licenses/guess_who/header_logo.png "/>
+            <button class="showCard" id="showCard"><b>Show Card</b></button>
+            <button class="hideCard" id="hideCard"><b>Hide Card</b></button>
+            <img  class="YourCard" id="yourCard" src=""/>
         </section>
         <section class="boardBigScreen">
             <div class="line1">
-                <img class="boardImg" src="./anna.png" alt="Anna-Frozen"/>
-                <img class="boardImg" src="./ariel.png" alt="Ariel - The Little Mermaid"/>
-                <img class="boardImg" src="./belle.png" alt="Belle - Beauty and the Beast"/>
-                <img class="boardImg" src="./boo.png" alt="Boo - Monsters Inc."/>
-                <img class="boardImg" src="./buzz.png" alt="Buzz - Toy Story"/>
-                <img class="boardImg" src="./elsa.png" alt="Elsa - Frozen"/>
+                <img class="boardImg" src="./anna.png" alt="Anna-Frozen" id="annaBoard"/>
+                <img class="boardImg" src="./ariel.png" alt="Ariel - The Little Mermaid" id="arielBoard"/>
+                <img class="boardImg" src="./belle.png" alt="Belle - Beauty and the Beast" id="belleBoard"/>
+                <img class="boardImg" src="./boo.png" alt="Boo - Monsters Inc." id="booBoard"/>
+                <img class="boardImg" src="./buzz.png" alt="Buzz - Toy Story" id="buzzBoard"/>
+                <img class="boardImg" src="./elsa.png" alt="Elsa - Frozen" id="elsaBoard"/>
             </div>
             <div class="line2">
-                <img class="boardImg" src="./gaston.png" alt="Gaston - Beauty and the Beast"/>
-                <img class="boardImg" src="./genie.png" alt="Genie - Alladin"/>
-                <img class="boardImg" src="./merida.png" alt="Merida - Brave"/>
-                <img class="boardImg" src="./peterpan.png" alt="Peter Pan"/>
-                <img class="boardImg" src="./pinocchio.png" alt="Pinocchio"/>
-                <img class="boardImg" src="./woody.png" alt="Woody - Toy Story"/>
+                <img class="boardImg" src="./gaston.png" alt="Gaston - Beauty and the Beast" id="gastonBoard"/>
+                <img class="boardImg" src="./genie.png" alt="Genie - Alladin" id="genieBoard"/>
+                <img class="boardImg" src="./merida.png" alt="Merida - Brave" id="meridaBoard"/>
+                <img class="boardImg" src="./peterpan.png" alt="Peter Pan" id="peterpanBoard"/>
+                <img class="boardImg" src="./pinocchio.png" alt="Pinocchio" id="pinocchioBoard"/>
+                <img class="boardImg" src="./woody.png" alt="Woody - Toy Story" id="woodyBoard"/>
             </div>
         </section>
         <section class="boardSmallScreen">
-            <img class="boardImg" src="./anna.png" alt="Anna-Frozen"/>
-            <img class="boardImg" src="./ariel.png" alt="Ariel - The Little Mermaid"/>
-            <img class="boardImg" src="./belle.png" alt="Belle - Beauty and the Beast"/>
-            <img class="boardImg" src="./boo.png" alt="Boo - Monsters Inc."/>
-            <img class="boardImg" src="./buzz.png" alt="Buzz - Toy Story"/>
-            <img class="boardImg" src="./elsa.png" alt="Elsa - Frozen"/>
-            <img class="boardImg" src="./gaston.png" alt="Gaston - Beauty and the Beast"/>
-            <img class="boardImg" src="./genie.png" alt="Genie - Alladin"/>
-            <img class="boardImg" src="./merida.png" alt="Merida - Brave"/>
-            <img class="boardImg" src="./peterpan.png" alt="Peter Pan"/>
-            <img class="boardImg" src="./pinocchio.png" alt="Pinocchio"/>
-            <img class="boardImg" src="./woody.png" alt="Woody - Toy Story"/>
+            <img class="boardImg" src="./anna.png" alt="Anna-Frozen" id="annaBoard2"/>
+            <img class="boardImg" src="./ariel.png" alt="Ariel - The Little Mermaid" id="arielBoard2"/>
+            <img class="boardImg" src="./belle.png" alt="Belle - Beauty and the Beast" id="belleBoard2"/>
+            <img class="boardImg" src="./boo.png" alt="Boo - Monsters Inc." id="booBoard2"/>
+            <img class="boardImg" src="./buzz.png" alt="Buzz - Toy Story" id="buzzBoard2"/>
+            <img class="boardImg" src="./elsa.png" alt="Elsa - Frozen" id="elsaBoard2"/>
+            <img class="boardImg" src="./gaston.png" alt="Gaston - Beauty and the Beast" id="gastonBoard2"/>
+            <img class="boardImg" src="./genie.png" alt="Genie - Alladin" id="genieBoard2"/>
+            <img class="boardImg" src="./merida.png" alt="Merida - Brave" id="meridaBoard2"/>
+            <img class="boardImg" src="./peterpan.png" alt="Peter Pan" id="peterpanBoard2"/>
+            <img class="boardImg" src="./pinocchio.png" alt="Pinocchio" id="pinocchioBoard2"/>
+            <img class="boardImg" src="./woody.png" alt="Woody - Toy Story" id="woodyBoard2"/>
         </section>
+        <button id="mistake" class="mistake"><b>Mistake</b></button>
+        <button id="mistake2" class="mistake2"><b>Mistake</b></button>
+        <button id="playAgain" class="playAgain"><b>Play Again</b></button>
         <footer>Project by<a href="https://github.com/yasmingsdm"> Yasmin Dal Medico</a></footer>
         <script src="./script.js"></script>
     </body>
