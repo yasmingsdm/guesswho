@@ -74,82 +74,10 @@ document.getElementById('hideCard').onclick = ()=>{
     yourCard.src = "./hide.png"
 }
 
-// Hide on the large board game:
+// Hide pictures:
 
-document.getElementById('annaBoard').onclick = ()=>{
-    annaBoard.src='./hide.png'
-}
-document.getElementById('arielBoard').onclick = ()=>{
-    arielBoard.src='./hide.png'
-}
-document.getElementById('belleBoard').onclick = ()=>{
-    belleBoard.src='./hide.png'
-}
-document.getElementById('booBoard').onclick = ()=>{
-    booBoard.src='./hide.png'
-}
-document.getElementById('buzzBoard').onclick = ()=>{
-    buzzBoard.src='./hide.png'
-}
-document.getElementById('elsaBoard').onclick = ()=>{
-    elsaBoard.src='./hide.png'
-}
-document.getElementById('gastonBoard').onclick = ()=>{
-    gastonBoard.src='./hide.png'
-}
-document.getElementById('genieBoard').onclick = ()=>{
-    genieBoard.src='./hide.png'
-}
-document.getElementById('meridaBoard').onclick = ()=>{
-    meridaBoard.src='./hide.png'
-}
-document.getElementById('peterpanBoard').onclick = ()=>{
-    peterpanBoard.src='./hide.png'
-}
-document.getElementById('pinocchioBoard').onclick = ()=>{
-    pinocchioBoard.src='./hide.png'
-}
-document.getElementById('woodyBoard').onclick = ()=>{
-    woodyBoard.src='./hide.png'
-}
-
-// Hide on the small board game:
-
-document.getElementById('annaBoard2').onclick = ()=>{
-    annaBoard2.src='./hide.png'
-}
-document.getElementById('arielBoard2').onclick = ()=>{
-    arielBoard2.src='./hide.png'
-}
-document.getElementById('belleBoard2').onclick = ()=>{
-    belleBoard2.src='./hide.png'
-}
-document.getElementById('booBoard2').onclick = ()=>{
-    booBoard2.src='./hide.png'
-}
-document.getElementById('buzzBoard2').onclick = ()=>{
-    buzzBoard2.src='./hide.png'
-}
-document.getElementById('elsaBoard2').onclick = ()=>{
-    elsaBoard2.src='./hide.png'
-}
-document.getElementById('gastonBoard2').onclick = ()=>{
-    gastonBoard2.src='./hide.png'
-}
-document.getElementById('genieBoard2').onclick = ()=>{
-    genieBoard2.src='./hide.png'
-}
-document.getElementById('meridaBoard2').onclick = ()=>{
-    meridaBoard2.src='./hide.png'
-}
-document.getElementById('peterpanBoard2').onclick = ()=>{
-    peterpanBoard2.src='./hide.png'
-}
-document.getElementById('pinocchioBoard2').onclick = ()=>{
-    pinocchioBoard2.src='./hide.png'
-}
-document.getElementById('woodyBoard2').onclick = ()=>{
-    woodyBoard2.src='./hide.png'
+const hidePic= pictureName =>{
+    document.getElementById(pictureName).src = './hide.png'
 }
 
 //Refresh the large board:
