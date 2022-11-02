@@ -5,7 +5,7 @@ You can play it online using 2 devices (one for each player).
 
 I used HTML, CSS and JavaScript.
 
-#####What I've practice/learned:
+##### What I've practice/learned:
 - Anchor to the same page (HTML);
 - Responsive design (CSS);
 - Hover effects(CSS);
