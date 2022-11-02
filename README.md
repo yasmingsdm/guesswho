@@ -11,7 +11,9 @@ I used HTML, CSS and JavaScript.
 - Hover effects(CSS);
 - Switch (JavaScript);
 - Refresh the page (JavaScript);
-- Arrays (JavaScript).
+- Arrays (JavaScript);
+- Adding a collaborator (GitHub);
+- Requesting code review (GitHub).
 
 
 You can check the project ready here: https://yasmingsdm.github.io/guesswho/
