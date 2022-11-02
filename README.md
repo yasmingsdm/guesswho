@@ -16,4 +16,4 @@ I used HTML, CSS and JavaScript.
 - Requesting code review (GitHub).
 
 
-You can check the project ready here: https://yasmingsdm.github.io/guesswho/
+You can check the project ready [here](https://yasmingsdm.github.io/guesswho/)
