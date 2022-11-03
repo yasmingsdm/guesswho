@@ -17,3 +17,6 @@ I used HTML, CSS and JavaScript.
 
 
 You can check the project ready [here](https://yasmingsdm.github.io/guesswho/)
+
+
+Code reviewer: [Vanessa Sue Smith](https://github.com/VanessaSue27)
